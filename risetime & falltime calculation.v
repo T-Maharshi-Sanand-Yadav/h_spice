@@ -44,7 +44,7 @@ vmax_y = 1.20026
 
 
 
-
+//This is wrong i guess
 //10% to 90%
 .meas tran tfall_10%_to_90% trig v(a) val='0.1*vdd' rise=1 targ v(y) val='0.9*vdd' fall=1
 .meas tran trise_10%_to_90% trig v(a) val='0.1*vdd' fall=2 targ v(y) val='0.9*vdd' rise=2
