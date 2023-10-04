@@ -5,7 +5,7 @@
 .MEAS TRAN vmin 	MIN 	V(out) FROM=TDval TO=Tstop
 .MEAS TRAN Trise 	TRIG 	V(out) 	val=’vmin+0.1*vmax’ TD=TDval RISE=1 TARG V(out) val=’0.9*vmax’ 		RISE=1
 .MEAS TRAN Tfall 	TRIG 	V(out) 	val=’0.9*vmax’ 		TD=TDval FALL=2 TARG V(out) val=’vmin+0.1*vmax’ FALL=2
-.MEAS TRAN Tdelay 	TRIG 	V(in) 	val=2.5 			TD=TDval FALL=1 TARG V(out) val=2.5 			FALL=2
+.MEAS TRAN Tdelay 	TRIG 	V(in) 	val=2.5 			TD=TDval FALL=1 TARG V(out) val=2.5 			        FALL=2
 
 
 
